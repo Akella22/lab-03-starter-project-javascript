@@ -2,7 +2,7 @@ FROM node:latest
 
 WORKDIR /app
 
-COPY package.json yarn.lock .env ./
+COPY package.json package.lock ./
 
 RUN npm i
 
